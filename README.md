@@ -50,7 +50,6 @@ Accuracy alone is misleading here. Only about 6% of entries are anomalous, so a 
 
 Precision and recall tell the real story, and they trade off against `contamination` (the model's assumed anomaly rate):
 
-![Precision vs recall across contamination values](images/precision_recall_sweep.png)
 
 | Contamination | Precision | Recall |
 |---|---|---|
